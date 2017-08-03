@@ -1,0 +1,115 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px)
+  .sectionSocialNetworks
+
+/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px)
+  .myFooter
+    .sectionSocialNetworks
+      .latestPost
+        padding-left: 0
+  .myContent
+    .sectionAbout
+      .aboutUsWrapper > p
+        font-size: 18px
+      .aboutUs
+        .h2
+          font-size: 22px
+          span
+            padding: 15px 50px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px)
+  .myHeader
+    header
+      padding: 0 18px 0 16px
+      .hello
+        padding: 50px 0
+
+    .navigationRow
+      .navBar
+        display: none
+        position: absolute
+        top: 90px
+        right: 0
+        left: 0
+        float: none
+        background-color: rgba(#000000, .8)
+        ul
+          & > li
+            display: block
+
+    .icon
+      display: block
+  .myContent
+    section
+      padding-left: 16px
+    .sectionAbout
+      .aboutUsWrapper > p
+        font-size: 16px
+        margin: 10px 0 0
+      .aboutUs
+        padding: 0 80px 0 0
+        .h2
+          font-size: 20px
+      .aboutBlock
+        padding: 250px 0 15px 0
+    .sectionCarousel
+      padding: 0 18px 0 16px
+  .myFooter
+    section
+      padding-left: 16px
+    .sectionSocialNetworks
+      padding-top: 50px
+      padding-right: 18px
+    .sectionCopyright
+      padding-right: 18px
+      & > div
+        &:last-child, &:first-child
+          text-align: center
+          padding: 10px 0
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px)
+  .myHeader
+    header
+      .hello
+        .h1
+          font-size: 3em
+        .h2
+          font-size: 1em
+  .myContent
+    .sectionAbout
+      .aboutUs
+        left: 16px
+        padding: 0 16px 0 0
+      .aboutBlock
+        & > div
+          padding-right: 18px
+          padding-left: 0
+          .honeycombs, .pump, .atom
+            margin: 0
+  .myFooter
+    .sectionSocialNetworks
+      .latestPost
+        .posts
+          &>div
+            padding-left: 115px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px)
+  .myContent
+    .sectionAbout
+
+
+
+
+
+
